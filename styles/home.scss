@@ -1,0 +1,124 @@
+.keukenwrappen_img {
+  background: url("../public/assets/img/keuken2.jpg");
+  background-size: cover;
+}
+.test_img {
+  background: url("../public/assets/img/hero1.jpg");
+  background-size: cover;
+}
+.keuken_img {
+  background: url("../public/assets/img/keuken.jpg");
+  background-size: cover;
+}
+.keukenwrappen1_img {
+  background: url("../public/assets/img/team.jpg");
+  background-size: cover;
+}
+.keukenwrappen2_img {
+  background: url("../public/assets/img/IMG_6018.jpeg");
+  background-size: cover;
+}
+.keukenwrappen3_img {
+  background: url("../public/assets/img/IMG_5409.jpeg");
+  background-size: cover;
+}
+.keukenwrappen4_img {
+  background: url("../public/assets/img/wrappen.jpg");
+  background-size: cover;
+}
+.visie__img {
+  background: url("../public/assets/img/tyrone.jpg");
+  background-size: cover;
+}
+
+.portfolio_img {
+  background: url("../public/assets/img/parallax-1.jpg");
+  background-size: cover;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: rgb(216, 177, 132) !important;
+  padding-bottom: 75px;
+  font-size: 20px !important;
+}
+
+._2R-kh {
+  display: flex;
+  max-width: 1480px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio_img {
+  ._2R-kh {
+    display: flex !important;
+  }
+
+  ._wPDyp {
+    flex: 1 0 21% !important;
+    width: 100% !important;
+    margin: 5px;
+    display: block;
+    position: relative;
+    padding: 0 10px !important;
+    margin: 0 10px;
+  }
+}
+
+._3xnQP {
+  z-index: 2!important;
+}
+
+.instagram {
+  ._wPDyp {
+    flex: 1 0 21% !important;
+    width: 100% !important;
+    margin: 5px;
+    display: block;
+    position: relative;
+    padding: 0 !important;
+  }
+}
+
+.h-500 {
+  height: 500px;
+}
+
+
+.wrapjevideo {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .h-400 {
+    height: 400px;
+  }
+  .portfolio_img {
+    ._2R-kh {
+      display: flex !important;
+    }
+    ._wPDyp {
+      flex: 1 0 46% !important;
+      width: 100% !important;
+      padding: 10px 5px !important;
+      display: block;
+      position: relative;
+    }
+  }
+  .instagram {
+    ._2R-kh {
+      display: flex !important;
+    }
+    ._wPDyp {
+      flex: 1 0 42% !important;
+      width: 100% !important;
+      padding: 10px 10px !important;
+      display: block;
+      position: relative;
+    }
+  }
+}
